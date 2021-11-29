@@ -39,11 +39,11 @@
             </section>
             <section id="achat">
                 <div class="compte">
-                    <img src="images/moncompte.jpg" alt="">
+                    <img id="compte" src="images/moncompte.jpg" alt="">
                     <p>Mon compte</p>
                 </div>
                 <div class="panier">
-                    <img src="images/panier.png" alt="">
+                    <img id="panier" src="images/panier.png" alt="">
                     <p>Mon panier</p>
                 </div>
             </section>
@@ -101,47 +101,52 @@
         </section>
         <section>
             <h1>Nos Meilleures ventes du moment</h1>
-            <article>
-                <img src="images/flecheg.jpg" alt="fleche gauche">
-                <img src="images/jb-bois-tableau-triptyque--le-vrai-tableau-decole.33411-1.235.jpg" alt="tableau">
-                <img src="images/fleched.jpg" alt="fleche droite">
+            <article id="best">
+                <div class="best">
+                    <img class="fleche" src="images/flecheg.jpg" alt="fleche gauche">
+                    <img src="images/jb-bois-tableau-triptyque--le-vrai-tableau-decole.33411-1.235.jpg" alt="tableau">
+                    <img class="fleche" src="images/fleched.jpg" alt="fleche droite">
+                </div>
                 <p>Tableau Triptyque : Le vrai tableau d'école - JB-Bois</p>
                 <h2>38€99</h2>
             </article>
-        </section>
-        <section>
+        </section  >
+        <section id="heros">
             <h1>Les héros préférés des enfants</h1>
-            <article>
-                <img src="images/590-2.png" alt="MICKEY ET SES AMIS">
-                <p>MICKEY ET SES AMIS</p>
-            </article>
-            <article>
-                <img src="images/608-2.png" alt="STAR WAR">
-                <p>STAR WAR</p>
-            </article>
-            <article>
-                <img src="images/974-2.png" alt="LA REINE DES NEIGES">
-                <p>LA REINE DES NEIGES</p>
-            </article>
-            <article>
-                <img src="images/2467-2.png" alt="HARRY POTTER">
-                <p>HARRY POTTER</p>
+            <div id="amis">
+                <article>
+                    <img src="images/590-2.png" alt="MICKEY ET SES AMIS">
+                    <p>MICKEY ET SES AMIS</p>
+                </article>
+                <article>
+                    <img src="images/608-2.png" alt="STAR WAR">
+                    <p>STAR WAR</p>
+                </article>
+                <article>
+                    <img src="images/974-2.png" alt="LA REINE DES NEIGES">
+                    <p>LA REINE DES NEIGES</p>
+                </article>
+                <article>
+                    <img src="images/2467-2.png" alt="HARRY POTTER">
+                    <p>HARRY POTTER</p>
+
+            </div>
         </section>
     </main>
     <footer>
-        <div>
-            <label for="news">RECEVER NOS NEWS LETTER</label>
+        <div id="letter">
+            <label for="news">RECEVEZ NOS NEWSLETTER</label>
             <input type="text" name="news" id="news" list="news">
             <button>Envoyer</button>
         </div>
-        <div>
+        <div id="social">
             <p>Suivez notre actualité sur :</p>
             <img src="images/face.png" alt="facebook">
             <img src="images/insta.png" alt="instaram">
             <img src="images/twitter.png" alt="twitter">
         </div>
-        <img src="images/train1.png.svg" alt="train1">
     </footer>
+    <img class="logo" src="images/train.png" alt="train1">
 </body>
 
 </html>
