@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="scripts.js"defer></script>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Baloo+2&family=Estonia&family=Praise&family=Roboto:ital,wght@0,400;1,300;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Baloo+2&family=Estonia&family=Praise&family=Roboto:ital,wght@0,100;0,400;1,300;1,700&display=swap"
+        rel="stylesheet">
+    <title>store toys</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <section id="logo">
+                <img class="logo" src="images/train.png" alt="logo">
+                <input type="checkbox" id="btn">
+                <ul>
+                    <li><a href="#">Jeux d'éveil</a></li>
+                    <li><a href="#">jouets 2 à 5 ans</a></li>
+                    <li><a href="#">jouets 5 à 8 ans</a></li>
+                    <li><a href="#">jouets 8 à 88 ans</a></li>
+                </ul>
+                <label for="btn">
+                    <i class="las la-bars"></i>
+                    <i class="las la-times"></i>
+                </label>
+            </section>
+            <section id="achat">
+                <div class="compte">
+                    <img src="images/moncompte.jpg" alt="">
+                    <p>Mon compte</p>
+                </div>
+                <div class="panier">
+                    <img src="images/panier.png" alt="">
+                    <p>Mon panier</p>
+                </div>
+            </section>
+                <div class="recherche">
+                    <label for="recherche">Recherche</label>
+                    <input type="text" name="recherche" id="recherche" list="jouets">
+                    <button>Envoyer</button>
+                </div>
+        </nav>
+        <div class="diapo" data-speed="5000" data-transition="500">
+            <div class="elements">
+                <div class="element">
+                    <img src="images/81006.jpg" alt="photo1">
+                </div>
+                <div class="element">
+                    <img src="images/195756.jpg" alt="photo2">
+                </div>
+                <div class="element">
+                    <img src="images/439315.jpg" alt="photo3">
+                </div>
+                <div class="element">
+                    <img src="images/568788.jpg" alt="photo4">
+                </div>
+                <div class="element">
+                    <img src="images/595725.jpg" alt="photo5">
+                </div>
+            </div>
+            <span id="gauche" ><</span>
+            <span id="droite" >></span>
+        </div>
+    </header>
+    <main>
+        <section>
+            <h1>Nouveautés</h1>
+            <article>
+                <img src="images/schleich-station-daventures-sauvages.424793-1.235.jpg" alt="station d'aventure">
+                <p>Nouveauté</p>
+                <p> Figurines Wild Life : Station d'aventures sauvages </p>
+                <h2>54€99</h2>
+            </article>
+            <article>
+                <img src="images/schleich-figurines-farm-world-station-de-lavage-de-vaches.424802-1.235.jpg"
+                    alt="station de lavage">
+                <p>Nouveauté</p>
+                <p>Figurines Farm World : Station de lavage de vaches - Schleich</p>
+                <h2>38€99</h2>
+            </article>
+            <article>
+                <img src="images/asmodee-les-loups-garous-de-thiercelieux-extension-personnages.423632-1.235.jpg"
+                    alt="livre">
+                <p>Nouveauté</p>
+                <p>Les loups-garous de Thiercelieux : Extension personnages - Asmodée</p>
+                <h2>9€99</h2>
+            </article>
+        </section>
+        <section>
+            <h1>Nos Meilleures ventes du moment</h1>
+            <article>
+                <img src="images/flecheg.jpg" alt="fleche gauche">
+                <img src="images/jb-bois-tableau-triptyque--le-vrai-tableau-decole.33411-1.235.jpg" alt="tableau">
+                <img src="images/fleched.jpg" alt="fleche droite">
+                <p>Tableau Triptyque : Le vrai tableau d'école - JB-Bois</p>
+                <h2>38€99</h2>
+            </article>
+        </section>
+        <section>
+            <h1>Les héros préférés des enfants</h1>
+            <article>
+                <img src="images/590-2.png" alt="MICKEY ET SES AMIS">
+                <p>MICKEY ET SES AMIS</p>
+            </article>
+            <article>
+                <img src="images/608-2.png" alt="STAR WAR">
+                <p>STAR WAR</p>
+            </article>
+            <article>
+                <img src="images/974-2.png" alt="LA REINE DES NEIGES">
+                <p>LA REINE DES NEIGES</p>
+            </article>
+            <article>
+                <img src="images/2467-2.png" alt="HARRY POTTER">
+                <p>HARRY POTTER</p>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <label for="news">RECEVER NOS NEWS LETTER</label>
+            <input type="text" name="news" id="news" list="news">
+            <button>Envoyer</button>
+        </div>
+        <div>
+            <p>Suivez notre actualité sur :</p>
+            <img src="images/face.png" alt="facebook">
+            <img src="images/insta.png" alt="instaram">
+            <img src="images/twitter.png" alt="twitter">
+        </div>
+        <img src="images/train1.png.svg" alt="train1">
+    </footer>
+</body>
+
+</html>

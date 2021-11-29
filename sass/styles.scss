@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'roboto', sans-serif;
+}
+
+h1,
+h2 {
+    font-family: 'parisienne', sans-serif;
+    text-transform: uppercase;
+}
+
+header {
+    // height: 100vh;
+    nav {
+        position: relative;
+        
+        .logo {
+            width: 100%;
+        }
+        
+        #btn,
+        ul {
+            display: none;
+        }
+        
+        .la-times {
+            display: none;
+        }
+        
+        i {
+            position: absolute;
+            top: 3%;
+            font-size: 3rem;
+            transform: translateY(-50%);
+            left: 80%;
+        }
+        
+        #achat {
+            display: flex;
+            text-align: center;
+            justify-content: space-evenly;
+            
+            .compte,
+            .panier {
+                img {
+                    width: 40px;
+                }
+            }
+        }
+        
+        .recherche {
+            position: relative;
+            text-align: center;
+            
+            label {
+                position: absolute;
+                top: 50%;
+                transform: translateY(-50%);
+                margin-left: 5%;
+            }
+            
+            input {
+                width: 75%;
+                height: 30px;
+                border-radius: 10px;
+            }
+            
+            button {
+                height: 30px;
+                color: white;
+                background-color: #800080;
+                border-radius: 10px;
+            }
+        }
+    }
+    .diapo {
+        width: 80%;
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .elements {
+        display: flex;
+    }
+    
+    .element {
+        width: 100%;
+        flex: 1 0 100%;
+        position: relative;
+    }
+    
+    .element > img {
+        width: 100%;
+    }
+    
+    #gauche, #droite{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #800080;
+        font-size: 5rem;
+    }
+    #droite{
+        right: 0;
+    }
+    
+}
